@@ -44,7 +44,7 @@ def handle_request():
 # Create the input field and response label
 input_field = tk.Entry(root,width=100,)
 response_label = tk.Label(root)
-
+temperature=tk.Entry()
 # Create the submit button
 submit_button = tk.Button(root, text="Submit", command=handle_request)
 
